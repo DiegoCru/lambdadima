@@ -1,0 +1,433 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    /*background: linear-gradient(to right, #9cd7f4, #24a4de) fixed;*/
+    background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;
+    color: #ffffff;
+    font-size: 16px;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+p{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 1000;
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input{
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* NAVIGATION */
+.nav-main { /* ajustes generales menu */
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.nav-brand { /* tamaño icono menu */
+    width: 50px;
+}
+.nav-main h2 {
+    font-weight: 900;
+}
+
+
+/* Nav Center */
+.nav-main ul { /* distribución palabras horizontal */
+    display: flex;
+}
+
+.nav-main ul li { /* espaciado palabras menu */
+    padding: 25px;
+}
+
+.nav-main ul li a { /* espaciado palabra-subrayado menu */
+    padding: 2px;
+}
+.nav-menu li a:hover { /* subrayado menu */
+    opacity: 70%;
+}
+
+.nav-menu-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+    background: white;
+    border-radius: 1000px;
+    color: #28015C;
+    padding: 5px 8px;
+    margin: auto auto auto 25px;
+}
+
+.nav-menu-right:hover{
+    opacity: 70%;
+}
+
+hr {
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+/* SHOWCASE */
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    margin: auto;
+}
+.no-slogan {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    margin: auto;
+    opacity: 0;
+}
+
+.compra-tiquet {
+    width: 300px;
+    margin: auto;
+    background: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buy-brand {
+    width: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 10000px;
+    font-weight: 800;
+    padding: 10px 30px;
+    background: #FF0077;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    opacity: 70%;
+}
+
+.fill-space-ticket {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background: #eaeaea;
+    margin: 15px 0px;
+    border-radius: 15px;
+    color: #a8a8a8;
+    font-size: 12px;
+}
+.fill-space-ticket p {
+    font-weight: 600;
+}
+.fill-space-ticket input {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #390063;
+    font-weight: 800;
+}
+
+.fill-space-lot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background: #eaeaea;
+    margin: 15px 0px;
+    border-radius: 15px;
+    color: #a8a8a8;
+    font-size: 20px;
+}
+.fill-space-lot p {
+    font-weight: 800;
+}
+.fill-space-lot span {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #390063;
+    font-weight: 800;
+}
+
+.info-sorteo {
+    margin: auto;
+    padding-left: 20px;
+    border-left: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.info-sorteo h1{
+    margin-top: 20px;
+}
+
+
+/* Datos */
+
+.datos {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #1B003D, #28015C) fixed;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 100px auto 50px;
+}
+.queso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.queso h2 {
+    color: #FFC300;
+    font-size: 15px;
+    font-weight: 800;
+}
+.pie {
+    font-size: 200px;
+}
+
+.porcentajes-loteria {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 10%;
+}
+.trozo-pie {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.trozo-pie h3{
+    font-weight: 300;
+    font-size: 15px;
+}
+.barra-loteria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.barra-loteria p {
+    margin-left: 10px;
+}
+/* BARRAS */
+#progress1 {
+    background: white;
+    border-radius: 10000px;
+    height: 8px;
+    width: 200px;
+    padding: 0px;
+}
+#progress1:after {
+    content: '';
+    display: block;
+    background: #e67474;
+    width: 25%;
+    height: 100%;
+    border-radius: 10000px;
+}
+#progress2 {
+    background: white;
+    border-radius: 10000px;
+    height: 8px;
+    width: 200px;
+    padding: 0px;
+}
+#progress2:after {
+    content: '';
+    display: block;
+    background: #55c1f0;
+    width: 50%;
+    height: 100%;
+    border-radius: 10000px;
+}
+#progress3 {
+    background: white;
+    border-radius: 10000px;
+    height: 8px;
+    width: 200px;
+    padding: 0px;
+}
+#progress3:after {
+    content: '';
+    display: block;
+    background: #f9b550;
+    width: 75%;
+    height: 100%;
+    border-radius: 10000px;
+}
+#progress4 {
+    background: white;
+    border-radius: 10000px;
+    height: 8px;
+    width: 200px;
+    padding: 0px;
+}
+#progress4:after {
+    content: '';
+    display: block;
+    background: #fef076;
+    width: 90%;
+    height: 100%;
+    border-radius: 10000px;
+}
+
+
+
+.premios-loteria {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    padding-left: 20px;
+    border-left: 2px solid white;
+}
+.premios-loteria h1{
+    color: #FFC300;
+    white-space: pre;
+    font-size: 25px;
+}
+.premios-loteria h2{
+    font-size: 15px;
+    white-space: pre;
+}
+.premio {
+    margin: auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.recaudacion {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 5px solid #FFC300;
+}
+
+
+/* SOCIAL */
+.media-contact {
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.links a {
+    margin: auto;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
+
+
+
+
+@media (max-width: 950px) {
+    .slogan {
+        display: none;
+    }
+    .no-slogan {
+        display: none;
+    }
+
+    .compra-tiquet {
+        margin-bottom: 20px;
+    }
+
+   .nav-menu li a
+   {
+    display: none;
+    }
+
+   .nav-brand{
+       align-self: center;
+   }
+
+    .showcase {
+        flex-direction: column;
+        max-width: 450px;
+        width: 90%;
+        align-items: calc();
+        justify-items: center;
+    }
+
+    .recaudacion {
+        font-size: 25px;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
