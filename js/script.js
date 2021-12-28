@@ -36,3 +36,27 @@ function myFunction() {
     var totalPrice = price * amount;
     document.getElementById("totalPrice").innerHTML = totalPrice.toFixed(2);;
 }
+
+
+
+
+
+
+/// MetaMask
+
+if (typeof window.ethereum !== 'undefined') {
+    console.log('MetaMask is installed!');
+}
+
+else {
+    console.log('MetaMask is installed!');
+}
+
+
+const ethereumButton = document.querySelector('.connect-wallet');
+
+ethereumButton.addEventListener('click', () => {
+  //Will Start the metamask extension
+  ethereum.request({ method: 'eth_requestAccounts' });
+});
+
