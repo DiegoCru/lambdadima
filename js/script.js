@@ -19,7 +19,10 @@ function myFunction() {
     maxi = 100
     var amount = document.getElementById("numberTickets").value;
 
-
+    if (amount % 1 != 0){
+        amount = Math.floor(amount);
+        document.getElementById("numberTickets").value = amount;
+    }
 
     if (amount < mini){
         document.getElementById("numberTickets").value = mini
