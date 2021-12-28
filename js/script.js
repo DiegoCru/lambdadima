@@ -53,10 +53,22 @@ else {
 }
 
 
+///const ethereumButton = document.querySelector('.connect-wallet');
+
+///ethereumButton.addEventListener('click', () => {
+  //Will Start the metamask extension
+///  ethereum.request({ method: 'eth_requestAccounts' });
+///});
+
 const ethereumButton = document.querySelector('.connect-wallet');
 
 ethereumButton.addEventListener('click', () => {
-  //Will Start the metamask extension
-  ethereum.request({ method: 'eth_requestAccounts' });
+  getAccount();
 });
 
+async function getAccount() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+
+  document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-5, -1)
+}
