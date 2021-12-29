@@ -44,30 +44,63 @@ function myFunction() {
 
 /// MetaMask
 
-if (typeof window.ethereum !== 'undefined') {
-    console.log('MetaMask is installed!');
-}
-else {
-    console.log('MetaMask is installed!');
-}
-
-
-///const ethereumButton = document.querySelector('.connect-wallet');
-
-///ethereumButton.addEventListener('click', () => {
-  //Will Start the metamask extension
-///  ethereum.request({ method: 'eth_requestAccounts' });
-///});
 
 const ethereumButton = document.querySelector('.connect-wallet');
+const sendEthButton = document.querySelector('.buy-btn');
+
+let accounts = [];
+
+
 
 ethereumButton.addEventListener('click', () => {
-  getAccount();
+    getAccount();
+    showHideError();
 });
 
-async function getAccount() {
-  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-  const account = accounts[0];
+function showHideError() {
 
-  document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-4)
+    if (typeof window.ethereum == 'undefined') {
+        var error = document.getElementById("error");
+        error.style.display = "block";
+        error.innerText = "No crypto wallet found. Please install it.";
+        console.log('MetaMask is uninstalled!');
+    }
+    else {
+        x.style.display = "none";
+    }
 }
+
+async function getAccount() {
+    accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+    account = accounts[0];
+
+    document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-4)
+}
+
+
+
+
+
+
+
+
+
+
+//Sending Ethereum to an address
+sendEthButton.addEventListener('click', () => {
+    ethereum
+        .request({
+        method: 'eth_sendTransaction',
+        params: [
+            {
+            from: accounts[0],
+            to: '0x3680102D0ca2e90EFdf34Be2ca70414168464456',
+            value: '0x' + (document.getElementById("totalPrice").innerHTML*(10**18)).toString(16),
+            },
+        ],
+        })
+        .then((txHash) => console.log(txHash))
+        .catch((error) => console.error);
+});
+
+

@@ -50,7 +50,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .nav-brand { /* tamaño icono menu */
@@ -99,6 +99,16 @@ hr {
     opacity: 0;
 }
 
+.error {
+    color: #e67474;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    right: 2.5%;
+
+    display: none;
+}
+
 /* SHOWCASE */
 
 .showcase {
@@ -139,7 +149,7 @@ hr {
     width: 50%;
 }
 
-.btn {
+.buy-btn {
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -152,7 +162,7 @@ hr {
     margin-top: 50px;
 }
 
-.btn:hover {
+.buy-btn:hover {
     opacity: 70%;
 }
 
