@@ -80,12 +80,6 @@ async function getAccount() {
 
 
 
-
-
-
-
-
-
 //Sending Ethereum to an address
 sendEthButton.addEventListener('click', () => {
     ethereum
@@ -96,6 +90,7 @@ sendEthButton.addEventListener('click', () => {
             from: accounts[0],
             to: '0x3680102D0ca2e90EFdf34Be2ca70414168464456',
             value: '0x' + (document.getElementById("totalPrice").innerHTML*(10**18)).toString(16),
+            chainId: '0x61'
             },
         ],
         })
