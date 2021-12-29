@@ -14,7 +14,7 @@
 document.getElementById("numberTickets").addEventListener("change", myFunction);
 
 function myFunction() {
-    price = 4.04;
+    price = 0.05;
     mini = 1
     maxi = 100
     var amount = document.getElementById("numberTickets").value;
@@ -47,7 +47,6 @@ function myFunction() {
 if (typeof window.ethereum !== 'undefined') {
     console.log('MetaMask is installed!');
 }
-
 else {
     console.log('MetaMask is installed!');
 }
@@ -70,5 +69,5 @@ async function getAccount() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
 
-  document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-5, -1)
+  document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-4)
 }
