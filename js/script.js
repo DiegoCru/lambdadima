@@ -51,8 +51,8 @@ const sendEthButton = document.querySelector('.buy-btn');
 let accounts = [];
 
 
-
 ethereumButton.addEventListener('click', () => {
+    switchChain();
     getAccount();
     showHideError();
 });
@@ -63,7 +63,6 @@ function showHideError() {
         var error = document.getElementById("error");
         error.style.display = "block";
         error.innerText = "No crypto wallet found. Please install it.";
-        console.log('MetaMask is uninstalled!');
     }
     else {
         x.style.display = "none";
@@ -77,13 +76,15 @@ async function getAccount() {
     document.getElementById("wallet").innerText = account.slice(0, 5) + "..." + account.slice(-4)
 }
 
+async function switchChain() {
+    await window.ethereum.request({
+        method: 'wallet_switchEthereumChain',
+        params: [{ chainId: '0x61' }], // chainId must be in hexadecimal numbers
+    });
+}
 
-
-
-//Sending Ethereum to an address
-sendEthButton.addEventListener('click', () => {
-    ethereum
-        .request({
+async function buyTicket() {
+    await ethereum.request({
         method: 'eth_sendTransaction',
         params: [
             {
@@ -96,6 +97,13 @@ sendEthButton.addEventListener('click', () => {
         })
         .then((txHash) => console.log(txHash))
         .catch((error) => console.error);
+}
+
+//Sending Ethereum to an address
+sendEthButton.addEventListener('click', () => {
+    buyTicket()
 });
 
-
+sendEthButton.addEventListener('mouseover', () => {
+    switchChain();
+});
