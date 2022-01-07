@@ -1,0 +1,106 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+body {
+    color: #ffffff;
+    font-size: 16px;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+p{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 1000;
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input{
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+/* SOCIAL */
+.media-contact {
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.links a {
+    margin: auto;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
+
+
+
+
+@media (max-width: 950px) {
+    .slogan {
+        display: none;
+    }
+    .no-slogan {
+        display: none;
+    }
+
+    .compra-tiquet {
+        margin-bottom: 20px;
+    }
+
+   .nav-menu li a
+   {
+    display: none;
+    }
+
+   .nav-brand{
+       align-self: center;
+   }
+
+    .showcase {
+        flex-direction: column;
+        max-width: 450px;
+        width: 90%;
+        align-items: calc();
+        justify-items: center;
+    }
+
+    .recaudacion {
+        font-size: 25px;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
