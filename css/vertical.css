@@ -1,0 +1,162 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;}
+
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #8ded9a;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #1a1b19;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #ED8D8D;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #ED8D8D;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }    
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+
+
+
+
+
+
+
+  .white-part {
+    background: white;
+    color: #28043B;
+}
+
+.white-part a {
+    color: #28043B;
+}
+
+.explain {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.explain i {
+    font-size: 50px;
+    transform: rotate(-45deg);
+    padding: 0px 0px;
+    margin: auto;
+}
+
+.text-explain {
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.text-explain h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.text-explain p {
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+
+.text-explain a {
+    font-size: 20px;
+}
+
+.text-explain a:hover {
+    opacity: 70%;
+}
+
+.percent-space {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.percent-number {
+    text-align: right;
+}
+
+.percent-text {
+    text-align: left;
+}
+
+.percent-text {
+    padding-left: 20px;
+    
+}

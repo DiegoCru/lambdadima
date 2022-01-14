@@ -12,6 +12,14 @@
     border-style: none;
 }
 
+.vert{
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
 body {
     /*background: linear-gradient(to right, #9cd7f4, #24a4de) fixed;*/
     background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;
