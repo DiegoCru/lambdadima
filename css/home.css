@@ -103,6 +103,7 @@ ul {
     width: 100%;
     margin: auto;
     padding: 0;
+    border-radius: 75px;
 }
 
 .lottery-space a {
