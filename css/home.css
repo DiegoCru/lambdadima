@@ -49,6 +49,11 @@ ul {
 
 /* LOGO SPACE */
 
+.logo-brand{
+    font-size: 0px;
+    clip-path: circle(125px at center);
+}
+
 .logo-space {
     display: flex;
     flex-direction: column;
@@ -59,7 +64,6 @@ ul {
 
 .logo-space img {
     width: 250px;
-    padding-bottom: 20px;
 }
 
 .fast-buttons {
@@ -115,17 +119,7 @@ ul {
 .fade-in.appear {
     opacity: 1;
 }
-/*
-.from-left {
-    grid-column: 2/3;
-    transform: translateX(-50%);
-}
 
-.from-right{
-    grid-column: 3/4;
-    transform: translateX(50%);
-}
-*/
 .explain i {
     font-size: 250px;
     transform: rotate(-45deg);
