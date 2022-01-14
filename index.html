@@ -30,7 +30,7 @@
         <!-- LOGO -->
 
         <section class="logo-space">
-            <div data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.05" class="logo-brand" data-tilt>
+            <div data-tilt-full-page-listening data-tilt-reset="false" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.05" class="logo-brand" data-tilt>
                 <img src="img/brand.png" alt="LotCoin LOGO">
             </div>                
             <div class="fast-buttons">
@@ -108,6 +108,10 @@
             max: 25,
             speed: 400
             gyroscope: true
+            gyroscopeMinAngleX:     -45,     // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
+        gyroscopeMaxAngleX:     45,      // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
+        gyroscopeMinAngleY:     -45,     // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
+        gyroscopeMaxAngleY:     45, 
         }); 
 
     </script>
