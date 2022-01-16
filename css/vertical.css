@@ -1,162 +1,121 @@
-* { /* reiniciar ajustes */
-    box-sizing: border-box;
+
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Mulish', sans-serif;}
-
-.circle {
-    padding: 13px 20px;
-    border-radius: 50%;
-    background-color: #8ded9a;
-    color: #fff;
-    max-height: 50px;
-    z-index: 2;
-  }
-  
-  .how-it-works.row .col-2 {
-    align-self: stretch;
-  }
-  
-  .how-it-works.row .col-2::after {
+    font-family: 'Mulish', sans-serif;
+    background: white;
+}
+.timeline{
+    position:relative;
+    margin:50px auto;
+    padding: 0px;
+    width: 95%;
+}
+.timeline:before{
+    content:"";
+    position:absolute;
+    left:50%;
+    width:2px;
+    height:100%;
+    background: rgb(10, 0, 44);
+}
+.timeline ul{
+    margin:0;
+    padding:0;
+}
+.timeline ul li{
+    list-style:none;
+    line-height:normal;
+    position:relative;
+    width:50%;
+    padding:20px 40px;
+    box-sizing:border-box
+}
+.timeline ul li:nth-child(odd){
+    float:left;
+    text-align:right;
+    clear:both;
+}
+.timeline ul li:nth-child(even){
+    float:right;
+    text-align:left;
+    clear:both;
+}
+.content{
+    padding-bottom:20px;
+}
+.timeline ul li:nth-child(odd):before {
     content: "";
     position: absolute;
-    border-left: 3px solid #1a1b19;
-    z-index: 1;
-  }
-  .how-it-works.row .col-2.bottom::after {
-    height: 50%;
-    left: 50%;
-    top: 50%;
-  }
-  .how-it-works.row .col-2.full::after {
-    height: 100%;
-    left: calc(50% - 3px);
-  }
-  .how-it-works.row .col-2.top::after {
-    height: 50%;
-    left: 50%;
-    top: 0;
-  }
-  .timeline div {
-    padding: 0;
-    height: 40px;
-  }
-  .timeline hr {
-    border-top: 3px solid #ED8D8D;
-    margin: 0;
-    top: 17px;
-    position: relative;
-  }
-  .timeline .col-2 {
-    display: flex;
-    overflow: hidden;
-  }
-  .timeline .corner {
-    border: 3px solid #ED8D8D;
-    width: 100%;
-    position: relative;
-    border-radius: 15px;
-  }
-  .timeline .top-right {
-    left: 50%;
-    top: -50%;
-  }
-  .timeline .left-bottom {
-    left: -50%;
-    top: calc(50% - 3px);
-  }    
-  .timeline .top-left {
-    left: -50%;
-    top: -50%;
-  }
-  .timeline .right-bottom {
-    left: 50%;
-    top: calc(50% - 3px);
-  }
-
-
-
-
-
-
-
-  .white-part {
-    background: white;
-    color: #28043B;
+    top:24px;
+    right:-6px;
+    width: 10px;
+    height: 10px;
+    background: rgb(10, 0, 44);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(10,0,44,.2);
 }
-
-.white-part a {
-    color: #28043B;
+.timeline ul li:nth-child(even):before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: rgb(10, 0, 44);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(10,0,44,.2);
 }
-
-.explain {
-    display: flex;
-    flex-direction: row;
-    padding: 50px 0;
-    justify-content: center;
-    align-items: center;
+.timeline ul li h3{
+    margin:0;
+    padding:0;
+    font-weight:600;
+    color:rgb(0, 0, 0);
+}
+.timeline ul li p{
+    margin:10px 0 0;
+    padding:0;
     text-align: justify;
-    margin: auto;
-    width: 90%;
+    font-weight: 200;
 }
 
-.fade-in{
-    opacity: 0;
-    transition: opacity 250ms ease-in;
+.timeline ul li:nth-child(odd) .photo {
+    position: absolute;
+    top: 0px;
+    right: -70%;
+    margin: 0;
+    padding: 8px 16px;
 }
 
-.fade-in.appear {
-    opacity: 1;
-}
 
-.explain i {
-    font-size: 50px;
-    transform: rotate(-45deg);
-    padding: 0px 0px;
-    margin: auto;
-}
 
-.text-explain {
-    justify-content: center;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-}
 
-.text-explain h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-}
 
-.text-explain p {
-    font-size: 20px;
-    padding-bottom: 25px;
-    font-weight: 500;
-}
 
-.text-explain a {
-    font-size: 20px;
+.timeline ul li .time h4{
+    margin:0;
+    padding:0;
+    font-size:14px;
 }
-
-.text-explain a:hover {
-    opacity: 70%;
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,.3)
 }
-
-.percent-space {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-}
-
-.percent-number {
-    text-align: right;
-}
-
-.percent-text {
-    text-align: left;
-}
-
-.percent-text {
-    padding-left: 20px;
-    
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,.3)
 }

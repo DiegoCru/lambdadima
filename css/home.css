@@ -14,15 +14,15 @@
 
 .vert{
     width: 100%;
-    height: 1000px;
+    height: 3000px;
     margin: 0;
     padding: 0;
     border-style: none;
 }
 
 body {
-    /*background: linear-gradient(to right, #9cd7f4, #24a4de) fixed;*/
-    background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;
+    /*background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;*/
+    background: #080022;
     color: #ffffff;
     font-size: 16px;
     /*font-family: 'Oswald', sans-serif;*/
@@ -56,23 +56,42 @@ ul {
     margin: auto;
 }
 
-/* LOGO SPACE */
+/* main SPACE */
 
 .logo-brand{
     font-size: 0px;
-    clip-path: circle(125px at center);
+    width: 250px;
+    /*clip-path: circle(125px at center);*/
 }
 
-.logo-space {
+.mian-space {
     display: flex;
     flex-direction: column;
     margin: auto;
     align-items: center;
+    justify-content: center;
     padding: 0px 0 100px ;
 }
 
-.logo-space img {
-    width: 250px;
+.main-text {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-title {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
 }
 
 .fast-buttons {
@@ -80,33 +99,44 @@ ul {
     flex-direction: row;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 100px;
+    justify-content: center;
 }
 
 .fast-btn {
-    background: #28043B;
-    margin: 20px;
+    margin: 10px;
     width: 175px;
     padding: 15px 25px;
-    border-radius: 10px;
+    border: solid 2px white;
+    border-radius: 5px;
     text-align: center;
     font-weight: 900;
 }
-
 .fast-btn:hover {
     opacity: 0.85;
 }
 
-.logo-space p {
-    width: 80%;
+.fast-info {
+    margin: 20px 20px 30px 45px;
+    width: 150px;
+    padding: 15px 15px;
+    border: solid 2px white;
+    border-radius: 5px;
     text-align: center;
-    font-size: 25px;
-    padding-top: 30px;
+    font-weight: 900;
 }
+.fast-info i {
+    color: greenyellow;
+}
+
+
+
+
 
 /* ABOUT TEXT */
 
 .about-text {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: normal;
     padding-left: 50px;
     padding-top: 25px;
@@ -116,11 +146,11 @@ ul {
 
 .white-part {
     background: white;
-    color: #28043B;
+    color: #0A002C;
 }
 
 .white-part a {
-    color: #28043B;
+    color: #0A002C;
 }
 
 .explain {
