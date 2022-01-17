@@ -119,3 +119,16 @@ body {
     border-radius: 18px;
     box-shadow: 0 0 0 3px rgba(233,33,99,.3)
 }
+
+
+
+
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

@@ -28,9 +28,5 @@ const appearOnScroll = new IntersectionObserver(function(
     appearOnScroll.observe(fader);
   });
 
-  sliders.forEach(slider => {
-    appearOnScroll.observe(slider);
-  });
-
 
 

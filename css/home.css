@@ -58,6 +58,11 @@ ul {
 
 /* main SPACE */
 
+.bg {
+    /*background: radial-gradient(circle 350px, #110049, #080022);*/
+    padding-bottom: 25px;
+}
+
 .logo-brand{
     font-size: 0px;
     width: 250px;
@@ -117,7 +122,7 @@ ul {
 }
 
 .fast-info {
-    margin: 20px 20px 30px 45px;
+    margin: 20px 20px 0px 45px;
     width: 150px;
     padding: 15px 15px;
     border: solid 2px white;
