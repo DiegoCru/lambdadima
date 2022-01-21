@@ -1,0 +1,141 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+body {
+    /*background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;*/
+    color: #ffffff;
+    font-size: 16px;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+p{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 1000;
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input{
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* SHOWCASE */
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.compra-tiquet {
+    width: 500px;
+    margin: auto;
+    background: #192440;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fill-space-ticket {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background: #0C162D;
+    margin: 0px 0px 10px 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+}
+.fill-space-ticket p {
+    font-weight: 600;
+}
+.fill-space-ticket input {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.fill-space-lot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background: #38445F;
+    margin: 10px 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.fill-space-lot p {
+    font-weight: 800;
+}
+.fill-space-lot span {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.buy-btn {
+    font-family: 'Mulish', sans-serif;
+    cursor: pointer;
+    border: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 25px 0px 0px 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+
+    font-weight: 800;
+    background: #FF0077;
+}
+
+.buy-btn:hover {
+    opacity: 70%;
+}
