@@ -21,6 +21,7 @@
 }
 
 body {
+    overflow-x: hidden;
     /*background: linear-gradient(0deg, #008F77, #080026) fixed;*/
     background: linear-gradient(0deg, #65573C, #0C162D) fixed;
     /*background: #080022;*/
@@ -369,12 +370,34 @@ ul {
 
 
 @media (max-width: 950px) {
-    .slogan {
+    .main-line {
         display: none;
     }
-    .no-slogan {
+    .fast-info {
+        margin-top: 0px;
+    }
+
+    .explain {
+        flex-direction: column;
+    }
+
+    .logo-brand-2 {
         display: none;
     }
+
+    .main-title, .main-text p, .fast-buttons{
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo-brand img{
+        left: calc(50vw - 210px);
+    }
+
+
+
+
 
     .compra-tiquet {
         margin-bottom: 20px;

@@ -54,8 +54,9 @@ ul {
 .nav-brand { /* tamaño icono menu */
     width: 50px;
 }
-.nav-main h2 {
+.nav-logo {
     font-weight: 900;
+    font-size: 27px;
 }
 
 
