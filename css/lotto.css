@@ -99,7 +99,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 25px 20px;
-    background: #38445F;
+    background: #4F3056;
     margin: 10px 0px;
     border-radius: 15px;
     color: white;
@@ -133,7 +133,8 @@ ul {
     font-size: 20px;
 
     font-weight: 800;
-    background: #FF0077;
+    background: #db7467;
+    /*background: #FF0077;*/
 }
 
 .buy-btn:hover {
