@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
     font-family: 'Mulish', sans-serif;
     background: white;
 }

@@ -69,41 +69,6 @@ ul {
     padding: 25px;
 }
 
-.nav-main ul li a { /* espaciado palabra-subrayado menu */
-    padding: 2px;
-}
-.nav-menu li a:hover { /* subrayado menu */
+.nav-menu li a:hover { /* hover menu */
     opacity: 70%;
-}
-
-.connect-wallet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
-    font-size: 18px;
-    background: white;
-    border-radius: 1000px;
-    color: #28015C;
-    padding: 5px 8px;
-    margin: auto auto auto 25px;
-}
-
-.connect-wallet:hover{
-    opacity: 70%;
-}
-
-hr {
-    margin-bottom: 50px;
-    opacity: 0;
-}
-
-.error {
-    color: #e67474;
-    font-size: 15px;
-    display: flex;
-    position: absolute;
-    right: 2.5%;
-
-    display: none;
 }

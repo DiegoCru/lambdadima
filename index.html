@@ -23,7 +23,7 @@
             
             <div>
 
-                <iframe class="naveg" src="navegation.html"></iframe>
+                <iframe id="iframe-nav" class="naveg" src="navegation.html"></iframe>
 
             </div>
 
@@ -101,15 +101,12 @@
 
 
         <div>
-
-            <iframe class="vert" src="vertical.html"></iframe>
-
+            <iframe id="iframe-vert" class="vert" src="vertical.html" ></iframe>
         </div>
 
 
         <!-- PARTITION -->
 
-        
         <section class="partition-space">
             <div class="explain fade-in">
                 <i class="far fa-circle"></i>
@@ -127,8 +124,7 @@
                         <h2>TEAM</h2>
                         <h2>ADVISORS</h2>
                         <h2>AIRDROP</h2>
-                    </div>
-                    
+                    </div>             
                 </div>
             </div>
         </section>
@@ -140,7 +136,6 @@
             <div class="rt-container fade-in" id="road-map">
                   <div class="col-rt-12">
                       <div class="Scriptcontent">
-                      
                         <ul class="timeline">
                             <li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
                             <li data-year="2022" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
@@ -156,13 +151,20 @@
         <!-- FOOTER -->
 
         <div>
-            <iframe class="foot" src="footer.html"></iframe>
+            <iframe id="iframe-foot" class="foot" src="footer.html"></iframe>
         </div>
 
     </div>
 
     <script src="js/home.js"></script>
     <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/iframeResizer.min.js"></script>
+
+    <script>
+        /*iFrameResize({ log: true }, '#iframe-nav')*/
+        iFrameResize({ log: true }, '#iframe-vert')
+        iFrameResize({ log: true }, '#iframe-foot')
+    </script>
 
 </body>
 </html>

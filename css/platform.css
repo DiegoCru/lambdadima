@@ -6,8 +6,8 @@
 
 
 .naveg{
+    max-height: 80px;
     width: 100%;
-    height: 110px;
     margin: 0;
     padding: 0;
     border-style: none;
@@ -108,7 +108,6 @@ ul {
 
 .lotto{
     width: 100%;
-    height: 350px;
     margin: auto;
     padding: 0;
     border-style: none;

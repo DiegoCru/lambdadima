@@ -23,7 +23,7 @@
             
             <div>
 
-                <iframe class="naveg" src="navegation.html"></iframe>
+                <iframe id="iframe-nav" class="naveg" src="navegation.html"></iframe>
 
             </div>
 
@@ -58,7 +58,7 @@
 
                 <div class="main-content">
 
-                    <iframe class="lotto" src="lotto.html"></iframe>
+                    <iframe id="iframe-lot" class="lotto" src="lotto.html"></iframe>
     
                 </div>
 
@@ -69,12 +69,19 @@
         <!-- FOOTER -->
 
         <div>
-            <iframe class="foot" src="footer.html"></iframe>
+            <iframe id="iframe-foot" class="foot" src="footer.html"></iframe>
         </div>
 
     </div>
 
     <script src="js/platform.js"></script>
+    <script src="js/iframeResizer.min.js"></script>
+
+    <script>
+        iFrameResize({ log: true }, '#iframe-nav')
+        iFrameResize({ log: true }, '#iframe-lot')
+        iFrameResize({ log: true }, '#iframe-foot')
+    </script>
 
 </body>
 </html>
