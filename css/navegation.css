@@ -72,3 +72,12 @@ ul {
 .nav-menu li a:hover { /* hover menu */
     opacity: 70%;
 }
+
+
+@media (max-width: 950px) {
+
+.sec {
+    display: none;
+}
+
+}

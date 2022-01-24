@@ -133,3 +133,58 @@ body {
 .fade-in.appear {
     opacity: 1;
 }
+
+
+@media (max-width: 950px) {
+    .timeline ul li:nth-child(odd) .photo {
+        display: none;
+    }
+
+
+
+
+    .timeline ul li:nth-child(odd){
+        float:right;
+        text-align:left;
+        clear:both;
+    }
+
+    .timeline ul li:nth-child(odd):before {
+        content: "";
+        position: absolute;
+        top: 24px;
+        left: -4px;
+        width: 10px;
+        height: 10px;
+        background: rgb(10, 0, 44);
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px rgba(10,0,44,.2);
+    }
+
+    .timeline ul li:nth-child(odd) .time {
+        position: absolute;
+        top: 12px;
+        left: -165px;
+        margin: 0;
+        padding: 8px 16px;
+        background: rgba(233,33,99,1);
+        color: #fff;
+        border-radius: 18px;
+        box-shadow: 0 0 0 3px rgba(233,33,99,.3)
+    }
+    
+
+    .timeline:before{
+        left:5%;
+    }
+
+    .timeline ul li{
+        width:95%;
+    }
+
+
+
+
+
+
+}

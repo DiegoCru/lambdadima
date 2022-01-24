@@ -395,40 +395,4 @@ ul {
     .logo-brand img{
         left: calc(50vw - 210px);
     }
-
-
-
-
-
-    .compra-tiquet {
-        margin-bottom: 20px;
-    }
-
-   .nav-menu li a
-   {
-    display: none;
-    }
-
-   .nav-brand{
-       align-self: center;
-   }
-
-    .showcase {
-        flex-direction: column;
-        max-width: 450px;
-        width: 90%;
-        align-items: calc();
-        justify-items: center;
-        margin: 0;
-    }
-
-    .recaudacion {
-        font-size: 25px;
-    }
-
-    .datos {
-        display: flex;
-        flex-direction: column;
-    }
-
 }
