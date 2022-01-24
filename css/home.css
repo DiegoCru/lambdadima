@@ -115,7 +115,8 @@ ul {
 .main-title {
     width: 100%;
     text-align: left;
-    font-size: 35px;
+    /*font-size: 35px;*/
+    font-size: 2.1875em;
     margin-bottom: 25px;
     color: #9DF3D3;
 }
@@ -123,7 +124,8 @@ ul {
 .main-text p {
     width: 50%;
     text-align: left;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1.125em;
     font-weight: 300;
     text-align: justify;
 }
@@ -371,6 +373,7 @@ ul {
 
 
 @media (max-width: 950px) {
+
     .main-line {
         display: none;
     }
@@ -394,5 +397,14 @@ ul {
     }
     .logo-brand img{
         left: calc(50vw - 210px);
+    }
+
+    .main-title {
+        font-size: 28px;
+
+    }
+    
+    .main-text p {
+        font-size: 12px;
     }
 }
