@@ -200,14 +200,93 @@ ul {
     color: greenyellow;
 }
 
+/* TECH */
 
+.dark-part {
+    background: linear-gradient(0deg, #0A2542, #0C162D);
+    padding: 50px 0px;
+}
 
+.tech-part {
+    width: 90%;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.tech-part h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.tech-part a {
+    font-size: 14px;
+    background: #048DF5;
+    padding: 10px 25px;
+    border-radius: 1000000px;
+}
+
+.tech-horizontal {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-horizontal img {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.tech-cards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: #0C172E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px 20px;
+    margin: 20px 40px 20px 0px;
+    border-radius: 20px;
+    width: 225px;
+    
+}
+
+.tech-card i {
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    margin: auto auto auto 0;
+    border-radius: 100000px;
+    margin-bottom: 25px;
+}
+
+.tech-card h2 {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.tech-card p {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 200;
+}
 
 
 /* ABOUT TEXT */
 
 .about-text {
-    font-size: 15px;
     font-weight: normal;
     padding-left: 50px;
     padding-top: 25px;
