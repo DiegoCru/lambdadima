@@ -204,7 +204,7 @@ ul {
 
 .dark-part {
     background: linear-gradient(0deg, #0A2542, #0C162D);
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .tech-part {
@@ -213,12 +213,16 @@ ul {
     margin-left: 100px;
 }
 
-.tech-part h1 {
+.tech-title {
+    margin: auto;
+}
+
+.tech-title h1 {
     font-size: 32px;
     margin-bottom: 30px;
 }
 
-.tech-part a {
+.tech-title a {
     font-size: 14px;
     background: #048DF5;
     padding: 10px 25px;
@@ -240,7 +244,6 @@ ul {
 .tech-cards {
     display: flex;
     flex-direction: column;
-    width: 60%;
 }
 
 .cards-row {
@@ -254,9 +257,9 @@ ul {
     justify-content: left;
     background: #0C172E;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 30px 20px;
+    padding: 30px 25px;
     margin: 20px 40px 20px 0px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 225px;
     
 }
@@ -277,7 +280,7 @@ ul {
 }
 
 .tech-card p {
-    width: 90%;
+    width: 95%;
     font-size: 14px;
     text-align: justify;
     font-weight: 200;
