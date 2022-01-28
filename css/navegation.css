@@ -36,7 +36,7 @@ ul {
 }
 
 .container {
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -49,6 +49,8 @@ ul {
     align-items: center;
     height: 60px;
     padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 25px;
 }
 
 .nav-brand { /* tamaño icono menu */

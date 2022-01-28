@@ -23,7 +23,8 @@
 body {
     overflow-x: hidden;
     /*background: linear-gradient(0deg, #008F77, #080026) fixed;*/
-    background: linear-gradient(0deg, #65573C, #0C162D) fixed;
+    /*background: linear-gradient(0deg, #65573C, #0C162D) fixed;*/
+    background: linear-gradient(0deg, #0A2542, #0C162D) fixed;
     /*background: #080022;*/
     color: #ffffff;
     font-size: 16px;
@@ -71,7 +72,7 @@ ul {
     font-size: 0px;
     width: 420px;
     position: absolute;
-    left: 9%;
+    left: 12%;
     top: 100px;
     z-index: -1;
     opacity: 0.1;
@@ -96,6 +97,7 @@ ul {
     justify-content: center;
     padding: 0px 0px 100px ;
     z-index: 0;
+
 }
 
 .main-horizontal {
@@ -110,13 +112,13 @@ ul {
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-left: 50px;
 }
 
 .main-title {
     width: 100%;
     text-align: left;
-    /*font-size: 35px;*/
-    font-size: 2.1875em;
+    font-size: 35px;
     margin-bottom: 25px;
     color: #9DF3D3;
 }
@@ -124,8 +126,7 @@ ul {
 .main-text p {
     width: 50%;
     text-align: left;
-    /*font-size: 18px;*/
-    font-size: 1.125em;
+    font-size: 18px;
     font-weight: 300;
     text-align: justify;
 }
@@ -168,6 +169,8 @@ ul {
     padding-top: 30px;
     padding-bottom: 100px;
     justify-content: left;
+    margin-left: 50px;
+
 }
 
 .fast-btn {
@@ -187,8 +190,19 @@ ul {
     opacity: 0.85;
 }
 
+.fast-info-box{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    min-height: 650px;
+    width: 500px;
+}
+
 .fast-info {
-    margin: 20px 20px 0px 45px;
+    /*margin: 15px 20px auto 45px;*/
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
     width: 150px;
     padding: 10px 15px;
     border: solid 2px white;
@@ -200,10 +214,56 @@ ul {
     color: greenyellow;
 }
 
+
+/* HOW TO USE */
+
+.howto-part {
+    width: 90%;
+    margin: auto;
+    margin-left: 100px;
+    padding: 40px 0px 50px 0px;
+}
+
+.howto-part h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.howto-steps {
+    display: flex;
+    flex-direction: row;
+}
+
+.howto-step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
+.howto-step i{
+    font-size: 125px;
+    padding: 60px 0px 60px 0px;
+    background: -webkit-linear-gradient(#144b85, #0C162D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.howto-step h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.howto-step h3{
+    font-size: 14px;
+    font-weight: 200;
+}
+
 /* TECH */
 
 .dark-part {
-    background: linear-gradient(0deg, #0A2542, #0C162D);
+    /*background: linear-gradient(0deg, #0A2542, #0C162D);*/
     padding: 40px 0px;
 }
 
