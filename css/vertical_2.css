@@ -179,6 +179,7 @@ body > h1::before {
     min-height: 6.25rem;
     text-align: justify;
 }
+
 .timeline > .timeline-item .timeline-content > p > img {
     width: 6.25rem;
     opacity: 0.05;
@@ -210,7 +211,7 @@ body > h1::before {
     box-shadow: 0 0.3125rem 0.625rem rgba(103, 58, 183, 0.1);
     color: #ffffff;
 }
-@media (max-width: 47.9375rem) {
+@media (max-width: 50rem) {
     .timeline > .timeline-item {
     flex-direction: column;
     border-left: 0.125rem solid #e0e0e0;

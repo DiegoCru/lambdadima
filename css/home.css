@@ -38,6 +38,11 @@ body {
     padding-bottom: 1.875rem;
 }
 
+.marg{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 p{
     font-weight: 700;
 }
@@ -224,8 +229,6 @@ ul {
 /* HOW TO USE */
 
 .howto-part {
-    width: 100%;
-    margin: auto;
     padding: 0rem 0rem 0.625rem 0rem;
 }
 
@@ -239,6 +242,10 @@ ul {
     flex-direction: column;
     text-align: center;
     margin: auto;
+    min-width: 13.75rem;
+    padding: 1.25rem;
+    border-radius: 1.5625rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
 .howto-step i{
@@ -266,15 +273,6 @@ ul {
     padding: 2.5rem 0rem;
 }
 
-.tech-part {
-    width: 100%;
-    margin: auto;
-}
-
-.tech-title {
-    margin: auto;
-}
-
 .tech-title a {
     font-size: 0.875rem;
     background: #048DF5;
@@ -291,7 +289,8 @@ ul {
 .tech-horizontal img {
     height: 15.625rem;
     width: 15.625rem;
-    margin: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .tech-cards {
@@ -316,12 +315,16 @@ ul {
     width: 14.0625rem;
 }
 
+.tech-card:hover {
+    box-shadow: 0 0rem 0.5rem 0 rgba(169, 204, 212, 0.6), 0 0rem 1.25rem 0 rgba(20,75,133, 0.5);
+}
+
 .tech-card i {
     background: white;
     color: black;
     padding: 0.625rem;
     font-size: 1.875rem;
-    margin: auto auto auto 0;
+    margin: 0 auto auto 0;
     border-radius: 6250rem;
     margin-bottom: 1.5625rem;
 }
@@ -341,9 +344,7 @@ ul {
 
 /* ABOUT TEXT */
 
-.about-text h1{
-    /*margin-left: 6.25rem;*/
-}
+
 
 /* LOTTERY SPACE */
 
@@ -364,8 +365,6 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin: auto;
-    width: 100%;
 }
 
 .fade-in{
@@ -503,10 +502,6 @@ ul {
 
 @media (max-width: 59.375rem) {
 
-    *{
-        width: 100%;
-    }
-
     .main-line {
         display: none;
     }
@@ -528,10 +523,6 @@ ul {
         margin: 0;
     }
 
-    .fast-info-box {
-        width: 100%;
-    }
-
     .logo-brand-2 {
         display: none;
     }
@@ -540,7 +531,6 @@ ul {
         text-align: center;
         align-content: center;
         justify-content: center;
-        width: 100%;
     }
     .logo-brand img{
         left: calc(50vw - 13.125rem);
@@ -563,7 +553,6 @@ ul {
     }
 
     .howto-step {
-        width: 100%;
         margin-bottom: 1.5625rem;
     }
 
