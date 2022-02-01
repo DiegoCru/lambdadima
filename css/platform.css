@@ -5,7 +5,7 @@
 }
 
 .naveg{
-    max-height: 80px;
+    max-height: 5rem;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
 body {
     background: #0C162D;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
@@ -50,10 +50,10 @@ ul {
 /* main SPACE */
 
 .bg {
-    /*background: radial-gradient(circle 350px, #110049, #080022);*/
-    padding-bottom: 25px;
+    /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
+    padding-bottom: 1.5625rem;
     height: 100vh;
-    min-height: 650px;
+    min-height: 40.625rem;
 }
 
 .main-horizontal {
@@ -71,9 +71,9 @@ ul {
     background: #04070e;
     display: flex;
     flex-direction: column;
-    margin: 0px auto 0px 0px;
+    margin: 0rem auto 0rem 0rem;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    padding: 3.125rem 0rem 3.125rem 0rem;
     text-align: center;
 }
 
@@ -82,15 +82,15 @@ ul {
 }
 
 .selector + .selector{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .fast-info {
-    margin: 80px 20px 0px 20px;
-    width: 150px;
-    padding: 10px 15px;
-    border: solid 2px white;
-    border-radius: 5px;
+    margin: 5rem 1.25rem 0rem 1.25rem;
+    width: 9.375rem;
+    padding: 0.625rem 0.9375rem;
+    border: solid 0.125rem white;
+    border-radius: 0.3125rem;
     text-align: center;
     font-weight: 900;
 }
@@ -125,7 +125,7 @@ ul {
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 59.375rem) {
     .slogan {
         display: none;
     }
@@ -134,7 +134,7 @@ ul {
     }
 
     .compra-tiquet {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
 }

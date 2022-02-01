@@ -13,7 +13,7 @@
 
 body {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
@@ -42,15 +42,15 @@ ul {
 
 /* SOCIAL */
 .media-contact {
-    margin: 10px;
+    margin: 0rem;
 }
 
 .links {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 3.125rem;
+    padding-bottom: 1.875rem;
 }
 
 .links a {
@@ -65,7 +65,7 @@ ul {
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 59.375rem) {
     .slogan {
         display: none;
     }
@@ -74,7 +74,7 @@ ul {
     }
 
     .compra-tiquet {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
    .nav-menu li a
@@ -88,14 +88,14 @@ ul {
 
     .showcase {
         flex-direction: column;
-        max-width: 450px;
+        max-width: 28.125rem;
         width: 90%;
         align-items: calc();
         justify-items: center;
     }
 
     .recaudacion {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .datos {

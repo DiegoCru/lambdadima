@@ -15,7 +15,7 @@ body {
     /*background: linear-gradient(to right, #9cd7f4, #24a4de) fixed;*/
     background: linear-gradient(0deg, #9D00C4, #000F5C) fixed;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
@@ -72,16 +72,16 @@ ul {
 }
 
 .compra-tiquet {
-    width: 300px;
+    width: 18.75rem;
     margin: auto;
     background: white;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3.125rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
 .buy-brand {
@@ -92,13 +92,13 @@ ul {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    border-radius: 10000px;
+    border-radius: 625rem;
     font-weight: 800;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     background: #FF0077;
     color: white;
-    font-size: 15px;
-    margin-top: 50px;
+    font-size: 0.9375rem;
+    margin-top: 3.125rem;
 }
 
 .buy-btn:hover {
@@ -110,12 +110,12 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     background: #eaeaea;
-    margin: 15px 0px;
-    border-radius: 15px;
+    margin: 0.9375rem 0rem;
+    border-radius: 0.9375rem;
     color: #a8a8a8;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .fill-space-ticket p {
     font-weight: 600;
@@ -123,7 +123,7 @@ ul {
 .fill-space-ticket input {
     background: transparent;
     border: transparent;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Mulish', sans-serif;
     color: #390063;
     font-weight: 800;
@@ -134,12 +134,12 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     background: #eaeaea;
-    margin: 15px 0px;
-    border-radius: 15px;
+    margin: 0.9375rem 0rem;
+    border-radius: 0.9375rem;
     color: #a8a8a8;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .fill-space-lot p {
     font-weight: 800;
@@ -147,7 +147,7 @@ ul {
 .fill-space-lot span {
     background: transparent;
     border: transparent;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Mulish', sans-serif;
     color: #390063;
     font-weight: 800;
@@ -155,13 +155,13 @@ ul {
 
 .info-sorteo {
     margin: auto;
-    padding-left: 20px;
-    border-left: 2px solid white;
-    padding-bottom: 20px;
+    padding-left: 1.25rem;
+    border-left: 0.125rem solid white;
+    padding-bottom: 1.25rem;
 }
 
 .info-sorteo h1{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 
@@ -174,9 +174,9 @@ ul {
     align-items: center;
     justify-content: center;
     background: linear-gradient(0deg, #1B003D, #28015C) fixed;
-    border-radius: 20px;
-    padding: 20px 0;
-    margin: 100px auto 50px;
+    border-radius: 1.25rem;
+    padding: 1.25rem 0;
+    margin: 6.25rem auto 3.125rem;
 }
 .queso {
     display: flex;
@@ -187,11 +187,11 @@ ul {
 }
 .queso h2 {
     color: #FFC300;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 800;
 }
 .pie {
-    font-size: 200px;
+    font-size: 12.5rem;
 }
 
 .porcentajes-loteria {
@@ -206,11 +206,11 @@ ul {
     margin: auto;
     justify-content: center;
     align-items: flex-start;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 .trozo-pie h3{
     font-weight: 300;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 .barra-loteria {
     display: flex;
@@ -218,15 +218,15 @@ ul {
     align-items: center;
 }
 .barra-loteria p {
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 /* BARRAS */
 #progress1 {
     background: white;
-    border-radius: 10000px;
-    height: 8px;
-    width: 200px;
-    padding: 0px;
+    border-radius: 625rem;
+    height: 0.5rem;
+    width: 12.5rem;
+    padding: 0rem;
 }
 #progress1:after {
     content: '';
@@ -234,14 +234,14 @@ ul {
     background: #e67474;
     width: 25%;
     height: 100%;
-    border-radius: 10000px;
+    border-radius: 625rem;
 }
 #progress2 {
     background: white;
-    border-radius: 10000px;
-    height: 8px;
-    width: 200px;
-    padding: 0px;
+    border-radius: 625rem;
+    height: 0.5rem;
+    width: 12.5rem;
+    padding: 0rem;
 }
 #progress2:after {
     content: '';
@@ -249,14 +249,14 @@ ul {
     background: #55c1f0;
     width: 50%;
     height: 100%;
-    border-radius: 10000px;
+    border-radius: 625rem;
 }
 #progress3 {
     background: white;
-    border-radius: 10000px;
-    height: 8px;
-    width: 200px;
-    padding: 0px;
+    border-radius: 625rem;
+    height: 0.5rem;
+    width: 12.5rem;
+    padding: 0rem;
 }
 #progress3:after {
     content: '';
@@ -264,14 +264,14 @@ ul {
     background: #f9b550;
     width: 75%;
     height: 100%;
-    border-radius: 10000px;
+    border-radius: 625rem;
 }
 #progress4 {
     background: white;
-    border-radius: 10000px;
-    height: 8px;
-    width: 200px;
-    padding: 0px;
+    border-radius: 625rem;
+    height: 0.5rem;
+    width: 12.5rem;
+    padding: 0rem;
 }
 #progress4:after {
     content: '';
@@ -279,7 +279,7 @@ ul {
     background: #fef076;
     width: 90%;
     height: 100%;
-    border-radius: 10000px;
+    border-radius: 625rem;
 }
 
 
@@ -290,29 +290,29 @@ ul {
     align-items: flex-start;
     justify-content: center;
     margin: auto;
-    padding-left: 20px;
-    border-left: 2px solid white;
+    padding-left: 1.25rem;
+    border-left: 0.125rem solid white;
 }
 .premios-loteria h1{
     color: #FFC300;
     white-space: pre;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 .premios-loteria h2{
-    font-size: 15px;
+    font-size: 0.9375rem;
     white-space: pre;
 }
 .premio {
     margin: auto;
     width: 80%;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 
 .recaudacion {
     margin: auto;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
-    border-bottom: 5px solid #FFC300;
+    border-bottom: 0.3125rem solid #FFC300;
 }
 
 .foot{
@@ -323,7 +323,7 @@ ul {
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 59.375rem) {
     .slogan {
         display: none;
     }
@@ -332,7 +332,7 @@ ul {
     }
 
     .compra-tiquet {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
    .nav-menu li a
@@ -346,14 +346,14 @@ ul {
 
     .showcase {
         flex-direction: column;
-        max-width: 450px;
+        max-width: 28.125rem;
         width: 90%;
         align-items: calc();
         justify-items: center;
     }
 
     .recaudacion {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .datos {

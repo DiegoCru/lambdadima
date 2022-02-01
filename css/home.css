@@ -6,7 +6,7 @@
 
 
 .naveg{
-    max-height: 80px;
+    max-height: 5rem;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -27,15 +27,15 @@ body {
     background: linear-gradient(0deg, #0A2542, #0C162D) fixed;
     /*background: #080022;*/
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
 }
 
 .subtit{
-    font-size: 32px;
-    padding-bottom: 30px;
+    font-size: 2rem;
+    padding-bottom: 1.875rem;
 }
 
 p{
@@ -67,26 +67,26 @@ ul {
 /* main SPACE */
 
 .bg {
-    /*background: radial-gradient(circle 350px, #110049, #080022);*/
-    padding-bottom: 25px;
+    /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
+    padding-bottom: 1.5625rem;
     height: 100vh;
-    min-height: 650px;
+    min-height: 40.625rem;
 }
 
 .logo-brand img{
-    font-size: 0px;
-    width: 420px;
+    font-size: 0rem;
+    width: 26.25rem;
     position: absolute;
     left: 12%;
-    top: 100px;
+    top: 6.25rem;
     z-index: -1;
     opacity: 0.1;
-    /*clip-path: circle(125px at center);*/
+    /*clip-path: circle(7.8125rem at center);*/
 }
 
 .logo-brand-2 h1{
-    font-size: 200px;
-    width: 420px;
+    font-size: 12.5rem;
+    width: 26.25rem;
     position: absolute;
     left: 45%;
     top: 70vh;
@@ -100,13 +100,13 @@ ul {
     margin: auto;
     align-items: center;
     justify-content: center;
-    padding: 0px 0px 100px ;
+    padding: 0rem 0rem 6.25rem ;
     z-index: 0;
 
 }
 
 .main-horizontal {
-    padding-top: 80px;
+    padding-top: 5rem;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -117,21 +117,21 @@ ul {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
 
 .main-title {
     width: 100%;
     text-align: left;
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 2.1875rem;
+    margin-bottom: 1.5625rem;
     color: #9DF3D3;
 }
 
 .main-text p {
     width: 50%;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
     text-align: justify;
 }
@@ -140,8 +140,8 @@ ul {
     display: flex;
     height: 20vh;
     flex-direction: column;
-    border-left: solid 2px white;
-    margin: 8px 0px 8px 7px;
+    border-left: solid 0.125rem white;
+    margin: 0.5rem 0rem 0.5rem 0.4375rem;
     opacity: 0.4;
 }
 
@@ -156,14 +156,14 @@ ul {
 }
 
 .circle-text h3{
-    margin: auto 0px auto 10px;
+    margin: auto 0rem auto 0.625rem;
     margin-bottom: auto;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .circle-text h4{
-    margin: auto 0px auto 10px;
-    font-size: 12px;
+    margin: auto 0rem auto 0.625rem;
+    font-size: 0.75rem;
     white-space: pre;
 }
 
@@ -171,24 +171,24 @@ ul {
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding-top: 1.875rem;
+    padding-bottom: 6.25rem;
     justify-content: left;
-    margin-left: 50px;
+    margin-left: 3.125rem;
 
 }
 
 .fast-btn {
-    margin: 0px;
-    padding: 2px 2px;
-    border-bottom: solid 2px white;
+    margin: 0rem;
+    padding: 0.125rem 0.125rem;
+    border-bottom: solid 0.125rem white;
     text-align: center;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .fast-btn + .fast-btn {
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 .fast-btn:hover {
@@ -199,20 +199,20 @@ ul {
     position: absolute;
     top: 0;
     height: 100%;
-    min-height: 650px;
-    width: 500px;
+    min-height: 40.625rem;
+    width: 31.25rem;
     z-index: -1;
 }
 
 .fast-info {
-    /*margin: 15px 20px auto 45px;*/
+    /*margin: 0.9375rem 1.25rem auto 2.8125rem;*/
     position: absolute;
-    bottom: 50px;
-    left: 50px;
-    width: 150px;
-    padding: 10px 15px;
-    border: solid 2px white;
-    border-radius: 5px;
+    bottom: 3.125rem;
+    left: 3.125rem;
+    width: 9.375rem;
+    padding: 0.625rem 0.9375rem;
+    border: solid 0.125rem white;
+    border-radius: 0.3125rem;
     text-align: center;
     font-weight: 900;
 }
@@ -224,9 +224,9 @@ ul {
 /* HOW TO USE */
 
 .howto-part {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding: 0px 0px 10px 0px;
+    padding: 0rem 0rem 0.625rem 0rem;
 }
 
 .howto-steps {
@@ -239,24 +239,23 @@ ul {
     flex-direction: column;
     text-align: center;
     margin: auto;
-    width: 25%;
 }
 
 .howto-step i{
-    font-size: 125px;
-    padding: 60px 0px 60px 0px;
+    font-size: 7.8125rem;
+    padding: 3.75rem 0rem 3.75rem 0rem;
     background: -webkit-linear-gradient(#144b85, #0C162D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .howto-step h2{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
 .howto-step h3{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 200;
 }
 
@@ -264,7 +263,7 @@ ul {
 
 .dark-part {
     /*background: linear-gradient(0deg, #0A2542, #0C162D);*/
-    padding: 40px 0px;
+    padding: 2.5rem 0rem;
 }
 
 .tech-part {
@@ -274,25 +273,24 @@ ul {
 
 .tech-title {
     margin: auto;
-    margin-left: 100px;
 }
 
 .tech-title a {
-    font-size: 14px;
+    font-size: 0.875rem;
     background: #048DF5;
-    padding: 10px 25px;
-    border-radius: 1000000px;
+    padding: 0.625rem 1.5625rem;
+    border-radius: 62500rem;
 }
 
 .tech-horizontal {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: flex;
     flex-direction: row;
 }
 
 .tech-horizontal img {
-    height: 250px;
-    width: 250px;
+    height: 15.625rem;
+    width: 15.625rem;
     margin: auto;
 }
 
@@ -304,7 +302,6 @@ ul {
 .cards-row {
     display: flex;
     flex-direction: row;
-    padding-left: 85px;
 }
 
 .tech-card {
@@ -312,31 +309,31 @@ ul {
     flex-direction: column;
     justify-content: left;
     background: #0e1c3b;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 30px 25px;
-    margin: 20px 40px 20px 0px;
-    border-radius: 25px;
-    width: 225px;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    padding: 1.875rem 1.5625rem;
+    margin: 1.25rem 2.5rem 1.25rem 0rem;
+    border-radius: 1.5625rem;
+    width: 14.0625rem;
 }
 
 .tech-card i {
     background: white;
     color: black;
-    padding: 10px;
-    font-size: 30px;
+    padding: 0.625rem;
+    font-size: 1.875rem;
     margin: auto auto auto 0;
-    border-radius: 100000px;
-    margin-bottom: 25px;
+    border-radius: 6250rem;
+    margin-bottom: 1.5625rem;
 }
 
 .tech-card h2 {
-    margin-bottom: 15px;
-    font-size: 15px;
+    margin-bottom: 0.9375rem;
+    font-size: 0.9375rem;
 }
 
 .tech-card p {
     width: 95%;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: justify;
     font-weight: 200;
 }
@@ -345,8 +342,7 @@ ul {
 /* ABOUT TEXT */
 
 .about-text h1{
-    margin-left: 100px;
-
+    /*margin-left: 6.25rem;*/
 }
 
 /* LOTTERY SPACE */
@@ -354,7 +350,7 @@ ul {
 .white-part {
     background: white;
     color: #0A002C;
-    padding: 40px 0px;
+    padding: 2.5rem 0rem;
 }
 
 .white-part a {
@@ -364,12 +360,12 @@ ul {
 .explain {
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    padding: 3.125rem 0;
     justify-content: center;
     align-items: center;
     text-align: justify;
     margin: auto;
-    width: 90%;
+    width: 100%;
 }
 
 .fade-in{
@@ -382,32 +378,28 @@ ul {
 }
 
 .explain i {
-    font-size: 250px;
-    transform: rotate(-45deg);
-    padding: 25px 50px;
+    font-size: 15.625rem;
     margin: auto;
 }
 
 .text-explain {
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
     width: 50%;
 }
 
 .text-explain h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
+    padding-bottom: 1.25rem;
+    font-size: 1.875rem;
 }
 
 .text-explain p {
-    font-size: 20px;
-    padding-bottom: 25px;
+    font-size: 1.25rem;
+    padding-bottom: 1.5625rem;
     font-weight: 500;
 }
 
 .text-explain a {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .text-explain a:hover {
@@ -417,7 +409,7 @@ ul {
 .percent-space {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .percent-number {
@@ -429,7 +421,7 @@ ul {
 }
 
 .percent-text {
-    padding-left: 20px;
+    padding-left: 1.25rem;
     
 }
 
@@ -439,11 +431,11 @@ ul {
 /* ROAD MAP */
 
 .timeline {
-	width:80%;
-	height: 20px;
+	width: 90%;
+	height: 1.25rem;
 	list-style: none;
 	text-align: justify;
-	margin: 100px auto;
+	margin: 6.25rem auto;
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, white 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
 }
@@ -452,8 +444,8 @@ ul {
 
 .timeline li {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 1.25rem;
+	height: 1.25rem;
 	background: white;
 	text-align: center;
 	line-height: 1.2;
@@ -464,23 +456,23 @@ ul {
 .timeline li:before {
 	display: inline-block;
 	content: attr(data-year);
-	font-size: 26px;
+	font-size: 1.625rem;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .timeline li:nth-child(odd):before {
-	top: -40px;
+	top: -2.5rem;
 }
 .timeline li:nth-child(even):before {
-	bottom: -40px;
+	bottom: -2.5rem;
 }
 
 .timeline li:after {
 	display: inline-block;
 	content: attr(data-text);
-	font-size: 16px;
+	font-size: 1rem;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -488,12 +480,12 @@ ul {
 
 .timeline li:nth-child(odd):after {
 	bottom: 0;
-	margin-bottom: -10px;
+	margin-bottom: -0.625rem;
 	transform: translate(-50%, 100%);
 }
 .timeline li:nth-child(even):after {
 	top: 0;
-	margin-top: -10px;
+	margin-top: -0.625rem;
 	transform: translate(-50%, -100%);
 }
 
@@ -509,7 +501,7 @@ ul {
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 59.375rem) {
 
     *{
         width: 100%;
@@ -519,7 +511,7 @@ ul {
         display: none;
     }
     .fast-info {
-        margin-top: 0px;
+        margin-top: 0rem;
     }
 
     .explain {
@@ -528,7 +520,7 @@ ul {
 
     .main-text {
         padding: 0;
-        margin: 0px;
+        margin: 0rem;
     }
 
     .fast-buttons{
@@ -551,16 +543,16 @@ ul {
         width: 100%;
     }
     .logo-brand img{
-        left: calc(50vw - 210px);
+        left: calc(50vw - 13.125rem);
     }
 
     .main-title {
-        font-size: 28px;
+        font-size: 1.75rem;
 
     }
     
     .main-text p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     /* HOW TO USE */
@@ -572,7 +564,7 @@ ul {
 
     .howto-step {
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
     }
 
     /* TECH */
