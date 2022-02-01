@@ -33,6 +33,11 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+.subtit{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
 p{
     font-weight: 700;
 }
@@ -196,6 +201,7 @@ ul {
     height: 100%;
     min-height: 650px;
     width: 500px;
+    z-index: -1;
 }
 
 .fast-info {
@@ -220,13 +226,7 @@ ul {
 .howto-part {
     width: 90%;
     margin: auto;
-    margin-left: 100px;
-    padding: 40px 0px 50px 0px;
-}
-
-.howto-part h1{
-    font-size: 32px;
-    margin-bottom: 30px;
+    padding: 0px 0px 10px 0px;
 }
 
 .howto-steps {
@@ -268,18 +268,13 @@ ul {
 }
 
 .tech-part {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    margin-left: 100px;
 }
 
 .tech-title {
     margin: auto;
-}
-
-.tech-title h1 {
-    font-size: 32px;
-    margin-bottom: 30px;
+    margin-left: 100px;
 }
 
 .tech-title a {
@@ -309,19 +304,19 @@ ul {
 .cards-row {
     display: flex;
     flex-direction: row;
+    padding-left: 85px;
 }
 
 .tech-card {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    background: #0C172E;
+    background: #0e1c3b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px 25px;
     margin: 20px 40px 20px 0px;
     border-radius: 25px;
     width: 225px;
-    
 }
 
 .tech-card i {
@@ -349,10 +344,9 @@ ul {
 
 /* ABOUT TEXT */
 
-.about-text {
-    font-weight: normal;
-    padding-left: 50px;
-    padding-top: 25px;
+.about-text h1{
+    margin-left: 100px;
+
 }
 
 /* LOTTERY SPACE */
@@ -360,6 +354,7 @@ ul {
 .white-part {
     background: white;
     color: #0A002C;
+    padding: 40px 0px;
 }
 
 .white-part a {
@@ -516,6 +511,10 @@ ul {
 
 @media (max-width: 950px) {
 
+    *{
+        width: 100%;
+    }
+
     .main-line {
         display: none;
     }
@@ -525,6 +524,20 @@ ul {
 
     .explain {
         flex-direction: column;
+    }
+
+    .main-text {
+        padding: 0;
+        margin: 0px;
+    }
+
+    .fast-buttons{
+        padding: 0;
+        margin: 0;
+    }
+
+    .fast-info-box {
+        width: 100%;
     }
 
     .logo-brand-2 {
@@ -548,5 +561,32 @@ ul {
     
     .main-text p {
         font-size: 12px;
+    }
+
+    /* HOW TO USE */
+
+    .howto-steps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .howto-step {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* TECH */
+
+    .cards-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-cards {
+        margin: auto;
+    }
+
+    .tech-horizontal img {
+        display: none;
     }
 }
