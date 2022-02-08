@@ -376,9 +376,10 @@ ul {
     opacity: 1;
 }
 
-.explain i {
-    font-size: 15.625rem;
+.pie {
+    height: 250px;
     margin: auto;
+    clip-path: circle(125px at center);
 }
 
 .text-explain {
