@@ -255,7 +255,6 @@ ul {
 .tech-cards {
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 
 .cards-row {
@@ -524,9 +523,11 @@ ul {
         flex-direction: column;
     }
 
+    .tech-cards {
+        margin: auto;
+    }
     .tech-card {
         margin-left: 0;
         margin-right: 0;
     }
-
 }
