@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    position: relative;
+}
 
 .naveg{
     max-height: 5rem;
@@ -21,7 +25,6 @@
 }
 
 body {
-    overflow-x: hidden;
     /*background: linear-gradient(0deg, #0A2542, #0C162D) fixed;*/
     background: #23252E;
     color: #ffffff;
@@ -71,13 +74,15 @@ ul {
 
 .bg {
     /*background: radial-gradient(circle 350px, #110049, #080022);*/
-    padding-bottom: 25px;
+    padding-bottom: 1.5625rem;
     height: 100vh;
-    min-height: 650px;
+    min-height: 750px;
+    position: relative;
 }
 
 .logo-brand h1{
-    font-size: 200px;
+    
+    font-size: 12.5rem;
     padding: 0;
     position: absolute;
     left: 50%;
@@ -85,7 +90,7 @@ ul {
     top: 34%;
     z-index: -1;
     opacity: 0.9;
-    text-shadow: 0 0 40px #2e79de;
+    text-shadow: 0 0 2.5rem #2e79de;
     color: transparent;
 
 }
@@ -112,14 +117,14 @@ ul {
 
 .main-title {
     text-align: left;
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size: 1.875rem;
+    margin-bottom: 1.5625rem;
     color: #ffffff;
 }
 
 .main-text p {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     text-align: justify;
     width: 75%;
@@ -130,29 +135,29 @@ ul {
 }
 
 .brand img{
-    width: 275px;
-    margin-left: 20px;
+    width: 17.1875rem;
+    margin-left: 1.25rem;
     opacity: 0.8;
 }
 
 .fast-buttons {
     display: flex;
     flex-direction: row;
-    padding-top: 30px;
+    padding-top: 1.875rem;
     justify-content: left;
 }
 
 .fast-btn {
-    margin: 0px;
-    padding: 2px 2px;
-    border-bottom: solid 2px white;
+    margin: 0rem;
+    padding: 0.125rem 0.125rem;
+    border-bottom: solid 0.125rem white;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .fast-btn + .fast-btn {
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 .fast-btn:hover {
@@ -163,24 +168,23 @@ ul {
     position: absolute;
     top: 0;
     height: 100%;
-    min-height: 650px;
-    width: 500px;
+    min-height: 750px;
     z-index: -1;
 }
 
 .fast-info {
-    /*margin: 15px 20px auto 45px;*/
+    /*margin: 0.9375rem 1.25rem auto 2.8125rem;*/
     position: absolute;
-    bottom: 50px;
-    left: 50px;
-    padding: 18px 20px;
-    border-radius: 15px;
+    bottom: 3.125rem;
+    left: 3.125rem;
+    padding: 1.125rem 1.25rem;
+    border-radius: 0.9375rem;
     text-align: center;
     background: #2b2e3c;
 }
 .fast-info p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     white-space: nowrap;
 }
 .fast-info i {
@@ -448,13 +452,17 @@ ul {
         flex-direction: column;
     }
 
-    .fast-buttons{
-        padding: 0;
-        margin: 0;
+    .main-horizontal {
+        position: relative;
+        top: 12vh;
     }
 
     .brand {
         display: none;
+    }
+    .logo-brand h1{
+        font-size: 160px;
+        text-shadow: 0 0 30px #2e79de;
     }
 
     .main-title, .main-text p, .fast-buttons{
@@ -463,14 +471,33 @@ ul {
         text-align: center;
         align-content: center;
         justify-content: center;
-    }
-    
+    }   
     .main-title {
-        font-size: 1.75rem;
+        font-size: 1.375rem;
     }
-    
     .main-text p {
-        font-size: 20px;
+        font-size: 1rem;
+    }
+
+    .fast-buttons{
+        padding: 0;
+        margin: 0;
+    }
+    .fast-btn {
+        padding-top: 1.25rem;
+        font-size: 0.9375rem;
+    }
+
+    .fast-info {
+        bottom: 25px;
+        left: 25px;
+        padding: 12px 16px;
+        border-radius: 10px;
+        text-align: center;
+        background: #2b2e3c;
+    }
+    .fast-info p{
+        font-size: 13px;
     }
 
     /* TECH */
@@ -482,6 +509,7 @@ ul {
 
     .tech-cards {
         margin: auto;
+        margin-right: 0;
     }
 
     .tech-decoration {
