@@ -196,9 +196,14 @@ ul {
 
 .tech-title a {
     font-size: 0.875rem;
-    background: #048DF5;
     padding: 0.625rem 1.5625rem;
     border-radius: 62500rem;
+    transition: all 0.5s ease;
+    background: #048DF5;
+}
+.tech-title a:hover{
+    background: #ffffff;
+    color: #000000;
 }
 
 .tech-horizontal {
