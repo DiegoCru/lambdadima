@@ -39,6 +39,15 @@ body {
     padding-bottom: 1.875rem;
 }
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  }
+
 .marg{
     margin-left: 8%;
     margin-right: 8%;
@@ -73,15 +82,14 @@ ul {
 /* main SPACE */
 
 .bg {
-    /*background: radial-gradient(circle 350px, #110049, #080022);*/
+    /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
     padding-bottom: 1.5625rem;
     height: 100vh;
-    min-height: 750px;
+    min-height: 46.875rem;
     position: relative;
 }
 
 .logo-brand h1{
-    
     font-size: 12.5rem;
     padding: 0;
     position: absolute;
@@ -92,7 +100,6 @@ ul {
     opacity: 0.9;
     text-shadow: 0 0 2.5rem #2e79de;
     color: transparent;
-
 }
 
 .main-space {
@@ -168,7 +175,7 @@ ul {
     position: absolute;
     top: 0;
     height: 100%;
-    min-height: 750px;
+    min-height: 46.875rem;
     z-index: -1;
 }
 
@@ -221,33 +228,34 @@ ul {
     position: relative;
 }
 .tech-decoration-text h1{
-    font-size: 45px;
-    padding-bottom: 20px;
+    font-size: 2.8125rem;
+    padding-bottom: 1.25rem;
     font-weight: 900;
     white-space: nowrap;
 }
 .tech-decoration-text h2{
-    font-size: 28px;
-    padding-bottom: 15px;
+    font-size: 1.75rem;
+    padding-bottom: 0.9375rem;
     font-weight: 700;
     white-space: nowrap;
 }
 .tech-decoration-text h3{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     white-space: nowrap;
 }
 .tech-decoration img {
     position: absolute;
-    top: 20px;
-    left: 50px;
-    height: 325px;
+    top: 1.25rem;
+    left: 3.125rem;
+    height: 20.3125rem;
     z-index: -1;
 }
 
 .tech-cards {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .cards-row {
@@ -324,9 +332,9 @@ ul {
 }
 
 .pie {
-    height: 250px;
+    height: 15.625rem;
     margin: auto;
-    clip-path: circle(125px at center);
+    clip-path: circle(7.8125rem at center);
 }
 
 .text-explain {
@@ -461,8 +469,8 @@ ul {
         display: none;
     }
     .logo-brand h1{
-        font-size: 160px;
-        text-shadow: 0 0 30px #2e79de;
+        font-size: 10rem;
+        text-shadow: 0 0 1.875rem #2e79de;
     }
 
     .main-title, .main-text p, .fast-buttons{
@@ -489,16 +497,25 @@ ul {
     }
 
     .fast-info {
-        bottom: 25px;
-        left: 25px;
-        padding: 12px 16px;
-        border-radius: 10px;
+        bottom: 1.5625rem;
+        left: 1.5625rem;
+        padding: 0.75rem 1rem;
+        border-radius: 0.625rem;
         text-align: center;
         background: #2b2e3c;
     }
     .fast-info p{
-        font-size: 13px;
+        font-size: 0.8125rem;
     }
+
+    /* TECH */
+
+    .tech-decoration {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
 
     /* TECH */
 
@@ -507,13 +524,9 @@ ul {
         flex-direction: column;
     }
 
-    .tech-cards {
-        margin: auto;
+    .tech-card {
+        margin-left: 0;
         margin-right: 0;
     }
 
-    .tech-decoration {
-        display: none;
-    }
 }
-
