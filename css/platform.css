@@ -5,11 +5,14 @@
 }
 
 .naveg{
+    position: fixed;
     max-height: 5rem;
     width: 100%;
     margin: 0;
     padding: 0;
     border-style: none;
+    background-color: #23252E;
+    z-index: 10;
 }
 
 body {
@@ -63,6 +66,10 @@ ul {
     min-height: 40.625rem;
 }
 
+.platform-cards {
+    padding-top: 100px;
+}
+
 .platform-cards-horizontal {
     display: flex;
     flex-direction: row;
@@ -72,7 +79,7 @@ ul {
     background-color: #302c3c;
     padding: 25px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
     height: auto;
 }
 .platform-card i{

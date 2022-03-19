@@ -1,0 +1,97 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg{
+    position: fixed;
+    max-height: 5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    background-color: #23252E;
+    z-index: 10;
+}
+
+body {
+    background: #28242c;
+    color: #ffffff;
+    font-size: 1rem;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+p{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 1000;
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input{
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* GENERAL */
+
+.marg{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* main SPACE */
+
+.bg {
+    /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
+    padding-bottom: 1.5625rem;
+    height: 100vh;
+    min-height: 40.625rem;
+}
+
+.lottery-main {
+    padding-top: 100px;
+}
+
+
+/* FOOT */
+
+.foot{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+
+
+@media (max-width: 59.375rem) {
+    .slogan {
+        display: none;
+    }
+    .no-slogan {
+        display: none;
+    }
+
+    .compra-tiquet {
+        margin-bottom: 1.25rem;
+    }
+
+}
