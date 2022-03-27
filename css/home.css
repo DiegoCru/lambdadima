@@ -90,7 +90,7 @@ ul {
     margin: 0;
     padding: 0;
     border-style: none;
-    background: rgba(40,36,44,1);
+    background: #23252E;
 
     z-index: 10;
 }
@@ -127,7 +127,7 @@ ul {
 
 .main-horizontal {
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     display: flex;
     flex-direction: row;
     margin-left: 8%;
@@ -186,6 +186,24 @@ ul {
 
 .fast-btn:hover {
     opacity: 0.85;
+}
+
+.platform-btn{
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.platform-btn a{
+    font-size: 1rem;
+    padding: 15px 25px;
+    border-radius: 62500rem;
+    transition: all 0.5s ease;
+    background: #048DF5;
+}
+.platform-btn a:hover{
+    background: #ffffff;
+    color: #000000;
 }
 
 .fast-info-box{

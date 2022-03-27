@@ -17,23 +17,57 @@
 <body>
     <div class="container">
 
-        <section class="bg">
         
-            <!-- TOP MENU -->
+        <!-- TOP MENU -->
             
-            <div>
+        <div>
 
-                <iframe id="iframe-nav" class="naveg" src="navegation.html"></iframe>
+            <iframe id="iframe-nav" class="naveg" src="navegation.html"></iframe>
 
-            </div>
+        </div>
 
-            <!-- MAIN -->
-            <section class="lottery-main marg">
-                <video width="auto" controls autoplay>
-                    <source src="img/rick.mp4" type="video/mp4">
-                    Your browser does not support HTML video.
-                  </video>
+        <!-- MAIN -->
+        
+        <section class="lottery-main marg">
+            <section class="box-price box">
+                <div class="price-amount">
+                    <h2>Price Amount:</h2>
+                    <h1>10,302.43 DECO</h1>
+                </div>
+                <div class="participants">
+                    <h3>Participants: 1.433</h3>
+                </div>
             </section>
+
+            <section class="box-buy box">
+                <div class="inner-box">
+                    <div class="amount-part">
+                        <input type="number" id="numberTickets" value="1" min="1" max="100">
+                        <div>
+                            <p>Tickets</p>
+                            <button>MAX</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="inner-box">
+                    <div class="resume-part">
+                        <div class="resume-data">
+                            <h2>DECO amount:</h2>
+                            <h1>3,204</h1>
+                        </div>
+                        <div class="resume-data">
+                            <h2>Price per ticket:</h2>
+                            <h1>~0.230$</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-btn">
+                    <button>BUY</button>
+                </div>
+            </section>
+        </section>
+
            
         <!-- FOOTER -->
 

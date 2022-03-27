@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #28242c;
+    background: #23252E;
     color: #ffffff;
     font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
@@ -59,16 +59,133 @@ ul {
 
 /* main SPACE */
 
-.bg {
-    /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
-    padding-bottom: 1.5625rem;
-    height: 100vh;
-    min-height: 40.625rem;
+.lottery-main {
+    
+    padding-top: 100px;
+    max-width: 800px;
+    margin: auto;
 }
 
-.lottery-main {
-    padding-top: 100px;
+.box{
+    background: #2B2E3C;
+    border-radius: 15px;
+    padding: 30px 75px;
+    margin: 25px 0;
 }
+.price-amount{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.price-amount h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.price-amount h1{
+    font-size: 50px;
+    font-weight: 1000;
+    background: -webkit-linear-gradient(left, #FFB800, #D76262, #00FFE0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.participants{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.participants h3{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.inner-box{
+    background: #23252E;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+.amount-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount-part input {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #08E1FF;
+    font-weight: 800;
+    transition: transform 250ms;
+
+}
+.amount-part input:hover {
+    transform: scale(1.2);
+}
+.amount-part div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.amount-part div button{
+    background: transparent;
+    border: transparent;
+    border-left: 1.5px solid white;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.resume-part{
+    display: flex;
+    flex-direction: column;
+}
+.resume-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-data + .resume-data{
+    padding-top: 10px;
+}
+.resume-data h1{
+    font-size: 1.25rem;
+    color: #08E1FF;
+    font-weight: 800;
+}
+.resume-data h2{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.buy-btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.buy-btn button{
+    border: 0;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border-radius: 10px;
+    background: #23252E;
+    transition: all 0.5s ease;
+}
+.buy-btn button:hover{
+    color: #23252E;
+    background: white;
+}
+
 
 
 /* FOOT */
@@ -83,15 +200,6 @@ ul {
 
 
 @media (max-width: 59.375rem) {
-    .slogan {
-        display: none;
-    }
-    .no-slogan {
-        display: none;
-    }
 
-    .compra-tiquet {
-        margin-bottom: 1.25rem;
-    }
 
 }

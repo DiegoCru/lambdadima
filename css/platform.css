@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #28242c;
+    background: #23252E;
     color: #ffffff;
     font-size: 1rem;
     /*font-family: 'Oswald', sans-serif;*/
@@ -62,30 +62,33 @@ ul {
 .bg {
     /*background: radial-gradient(circle 21.875rem, #110049, #080022);*/
     padding-bottom: 1.5625rem;
-    height: 100vh;
+    /*height: 100vh;*/
     min-height: 40.625rem;
 }
 
 .platform-cards {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .platform-cards-horizontal {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .platform-card {
-    background-color: #302c3c;
+    background-color: #2B2E3C;
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 0px;
     margin: 15px;
-    height: auto;
+    width: 25vw;
+    height: 90%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0);
 }
 .platform-card i{
     font-size: 50px;
-    z-index: 1;
-    background: -webkit-linear-gradient(left, #048DF5, rgb(255, 255, 255));
+    color: #048DF5;
+    background: -webkit-linear-gradient(right, #048DF5, #005da5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
