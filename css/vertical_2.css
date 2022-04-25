@@ -53,11 +53,11 @@ body > h1::before {
 }
 .timeline > .timeline-item > div {
     flex: 1;
-    padding: 1.25rem 2.5rem;
+    padding: 0rem 2.5rem;
 }
 .timeline > .timeline-item > div:last-child {
     text-align: left;
-    padding-bottom: 2.5rem !important;
+    padding-bottom: 0rem !important;
 }
 .timeline > .timeline-item > div:first-child::after {
     content: "";
@@ -176,7 +176,7 @@ body > h1::before {
     box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.08);
     position: relative;
     line-height: 1.5625rem;
-    padding-bottom: 3.75rem;
+    padding-bottom: 60px;
     min-height: 6.25rem;
     text-align: justify;
 }

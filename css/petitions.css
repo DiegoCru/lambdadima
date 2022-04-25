@@ -1,0 +1,112 @@
+* { /* reiniciar ajustes */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg{
+    position: fixed;
+    max-height: 5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    background-color: #23252E;
+    z-index: 10;
+}
+
+body {
+    background: #23252E;
+    color: #ffffff;
+    font-size: 1rem;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+p{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 1000;
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input{
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* GENERAL */
+
+.marg{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* main SPACE */
+
+.petitions-main {
+    
+    padding-top: 100px;
+    max-width: 800px;
+    margin: auto;
+    height: 80vh;
+}
+
+.petitions-cards {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    font-size: 40px;
+}
+
+.petition-btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.petition-btn button{
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border-radius: 10px;
+    background: #2b2e3d;
+    transition: all 0.5s ease;
+}
+.petition-btn button:hover{
+    color: #23252E;
+    background: white;
+}
+
+
+
+/* FOOT */
+
+.foot{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+
+
+@media (max-width: 59.375rem) {
+
+
+}
