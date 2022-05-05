@@ -430,41 +430,18 @@ ul {
     margin: auto;
     clip-path: circle(7.8125rem at center);
 }
-
-.partition-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.partition-text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    background: #2b2e3c;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0);
-    padding: 1.875rem 1.5625rem;
-    margin: 1.25rem 2.5rem 1.25rem 0rem;
-    border-radius: 1.5625rem;
-}
-.partition-info a {
-    font-size: 0.875rem;
-    padding: 0.625rem 1.5625rem;
-    border-radius: 62500rem;
-    transition: all 0.5s ease;
-    background: #048DF5;
-    margin-right: auto;
-}
-.partition-info a:hover{
-    background: #ffffff;
-    color: #000000;
-}
 .partition-legend{
     display: flex;
     flex-direction: row;
     margin: auto;
     justify-content: center;
 }
-.partition-legend h1{
+.partition-legend-sub{
+    display: flex;
+    flex-direction: row;
+}
+
+.partition-legend-sub h1{
     margin: 50px 10px 0 50px;
     font-size: 15px;
     font-weight: 400;
@@ -568,6 +545,11 @@ ul {
 
 @media (max-width: 950px) {
 
+    .marg_2{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
     .main-horizontal {
         position: relative;
         top: 12vh;
@@ -621,6 +603,38 @@ ul {
     .tech-decoration {
         display: none;
     }
+
+    /* BANNER */
+    .banner-decoration {
+        display: none;
+    }
+    .banner-text {
+        width: 90%;
+    }
+
+    /* PARTITION */
+
+    .partition-legend{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .partition-legend-sub h1{
+        margin: 25px 10px 0 20px;
+    }
+
+    /* ROAD MAP */
+
+    .roadmap-cards-horizontal {
+        flex-direction: column;
+    }
+    .roadmap-card {
+        margin-bottom: 0rem;
+    }
+    .roadmap-card + .roadmap-card {
+        margin-left: auto;
+    }
+
 }
 
 @media (max-width: 620px) {

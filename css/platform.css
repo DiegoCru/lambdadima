@@ -138,14 +138,14 @@ ul {
 
 
 @media (max-width: 59.375rem) {
-    .slogan {
-        display: none;
+    .platform-cards-horizontal {
+        flex-direction: column;
     }
-    .no-slogan {
-        display: none;
+    .platform-card {
+        width: auto;
     }
-    .compra-tiquet {
-        margin-bottom: 1.25rem;
+    .platform-cards {
+        padding-top: 100px;
     }
 
 }
